@@ -1,6 +1,5 @@
 
-version: '3'
-
+# version: '3' # This attribute is obsolete; Docker Compose automatically selects the appropriate version.
 
 services:
 
