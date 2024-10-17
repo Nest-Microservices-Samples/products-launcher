@@ -9,4 +9,4 @@
 	url = https://github.com/Nest-Microservices-Samples/orders-microservice.git
 [submodule "payments-ms"]
 	path = payments-ms
-	url = https://github.com/Nest-Microservices-Samples/payments-microservcie.git
+	url = https://github.com/Nest-Microservices-Samples/payments-microservice.git
