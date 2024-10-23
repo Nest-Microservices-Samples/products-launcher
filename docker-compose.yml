@@ -70,7 +70,7 @@ services:
         - ./payments-ms/src:/usr/src/app/src
       command: npm run start:dev
       ports:
-        - ${PAYMENTS_MS_PORT}:${PAYMENTS_MS_PORT}
+      - ${PAYMENTS_MS_PORT}:${PAYMENTS_MS_PORT}
       environment:
         - PORT=${PAYMENTS_MS_PORT}
         - NATS_SERVERS=nats://nats-server:4222
