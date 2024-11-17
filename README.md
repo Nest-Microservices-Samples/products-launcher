@@ -52,4 +52,5 @@ If you do it the other way around, you will lose references to the sub-modules i
 1. Clonar el repositorio
 2. Crear un .env basado en el .env.template
 3. Ejecutar el comando
+
 ```sudo docker compose -f docker-compose.prod.yml build```
